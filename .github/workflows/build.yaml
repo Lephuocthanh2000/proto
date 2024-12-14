@@ -1,10 +1,10 @@
 on:
   push:
-    paths-ignore:
-      - .github/**
-      - .gitignore
-      - Brewfile
-      - README.md
+    # paths-ignore:
+    #   - .github/**
+    #   - .gitignore
+    #   - Brewfile
+    #   - README.md
     branches:
       - main
 
