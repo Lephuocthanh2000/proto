@@ -1,12 +1,5 @@
 on:
-  push:
-    # paths-ignore:
-    #   - .github/**
-    #   - .gitignore
-    #   - Brewfile
-    #   - README.md
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
