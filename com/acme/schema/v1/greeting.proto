@@ -14,9 +14,10 @@ service GreetingService {
 enum Language {
   UNKNOWN = 0; // Default value when language is not set
   EN = 1;      // Generic English
-  EN_GB = 2;   // British English
-  ES = 3;      // Spanish
-  FR = 4;      // French
+  EN_US = 2;   // American English
+  EN_GB = 3;   // British English
+  ES = 4;      // Spanish
+  FR = 5;      // French
 }
 
 message GreetingRequest {
